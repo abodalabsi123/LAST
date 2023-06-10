@@ -1,0 +1,27 @@
+.photo-carousel {
+    
+    align-items: center;
+  }
+  
+  .photo-wrapper {
+
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .photo {
+
+    width: 20%;
+    height: 50%;
+    transition: transform 0.5s;
+  }
+  
+  .photo.active {
+    transform: translateX(0);
+  }
+  
+  .photo.inactive {
+    transform: translateX(100%);
+  }
+  
